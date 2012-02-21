@@ -8,6 +8,6 @@
   * Recovery system
   * XML Descriptor: Define a descriptor file (XML) to describe each step of the workflow
     ** The user should be able to change any components in the workflow without affecting other parts of the system
-      *** take care input / output values
+      ** take care input / output values
 
 = Non-functional Requirements =
