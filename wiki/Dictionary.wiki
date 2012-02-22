@@ -1,4 +1,4 @@
-#summary Dictionary of tbe project.
+#summary Dictionary of the project.
 
 = List of terms being used =
 
