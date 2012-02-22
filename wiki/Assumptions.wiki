@@ -1,13 +1,10 @@
 #summary List of assumptions.
 
-= Introduction =
+= Controversial Assumptions (to ask Stuart) =
 
-Add your content here.
+* 1. bla bla
 
 
-= Details =
+= Confirmed Assumptions =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+* 1. blabla
