@@ -2,7 +2,7 @@
 
 = List of terms being used =
 
-*Project - root of all evil [TODO]
+*Project* - root of all evil [TODO]
 
 *System - all resources and programs using in project
 
