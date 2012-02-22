@@ -5,11 +5,14 @@
 
 = Functional Requirements =
 
-  * 1 Recovery system
+  * 1 Recovery system: possibility of restarting workflow when system crushes.
   * 2 XML Descriptor: Define a descriptor file (XML) to describe each step of the workflow
     * 2.1 Descriptor should descript the instructions and parameters for each module
     * 2.2 The user should be able to change any components in the workflow without affecting other parts of the system
-      * 2.2.1 take care input / output values
-   * 3 Dispatcher
+      * 2.2.1 
+   * 3 Simultaneous access to system: many users should have access to 
       
 = Non-functional Requirements =
+
+   * 1 Validation: take care of input/output formats of specific modules.
+   * 2 Create universal communication standards: communications protocols etc.
