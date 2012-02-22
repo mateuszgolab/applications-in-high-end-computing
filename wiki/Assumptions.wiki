@@ -10,6 +10,8 @@ MAIN ASSUMPTIONS
  * 4* Admin can, not only replace but also add/remove modules from workflow.
  * 5* Nature of optimizer we have to run all modules (mesh, solver) before each iteration of optimising.
  * 6* Shall we paralelise workflow? How can we paralelize otherwise?
+ * 
+
 
 
 
