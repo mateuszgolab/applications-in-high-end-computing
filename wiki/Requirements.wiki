@@ -10,8 +10,11 @@
     * 2.1 Descriptor should descript the instructions and parameters for each module
     * 2.2 The user should be able to change any components in the workflow without affecting other parts of the system
   * 3 Simultaneous access to system: many users should have access to system recources.
+  * 4 Possibility of exchange the individual modules
+  * 5 Monitoring of errors: Users can see the exact location of failures.
       
 = Non-functional Requirements =
 
    * 1 Validation: take care of input/output formats of specific modules.
    * 2 Create universal communication standards: communications protocols etc.
+   * 3 Parallelization in optimistaion part (it's important especially when we execute algorithms given nondeterministic output)
