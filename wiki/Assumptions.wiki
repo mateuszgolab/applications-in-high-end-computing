@@ -2,9 +2,11 @@
 
 = Controversial Assumptions (to ask Stuart) =
 
-* 1. bla bla
+* 1 Parallel access to recources through program (supercomputers, grids) - many users in the same time.
+* 2 
 
 
 = Confirmed Assumptions =
 
-* 1. blabla
+* 1 System is specified to resolve particular problem (wing-shape optimization). It is not general solution for all workflows in the world.
+* 2 
