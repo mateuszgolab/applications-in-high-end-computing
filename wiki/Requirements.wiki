@@ -9,7 +9,7 @@
   * 2 XML Descriptor: Define a descriptor file (XML) to describe each step of the workflow
     * 2.1 Descriptor should descript the instructions and parameters for each module
     * 2.2 The user should be able to change any components in the workflow without affecting other parts of the system
-  * 3 Simultaneous access to system: many users should have access to 
+  * 3 Simultaneous access to system: many users should have access to system recources.
       
 = Non-functional Requirements =
 
