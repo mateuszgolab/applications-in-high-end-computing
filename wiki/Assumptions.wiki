@@ -3,7 +3,7 @@
 = Controversial Assumptions (to ask Stuart) =
 
 * 1 Parallel access to recources through program (supercomputers, grids) - many users in the same time.
-* 2 
+* 2 Input and output are standarized. (Otherwise there would have to be translators between modules when in/out change - who would create translators?)
 
 
 = Confirmed Assumptions =
