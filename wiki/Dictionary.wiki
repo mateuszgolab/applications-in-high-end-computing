@@ -1,0 +1,23 @@
+#summary Dictionary of tbe project.
+
+= List of terms being used =
+
+*Project - root of all evil [TODO]
+
+*System - all resources and programs using in project
+
+*Workflow - program running on workflow server (sequence of steps) 
+
+*Client - program which gives users possibility to remotely run simulation or administrator to change settings of workflow
+
+*Module - single unit of workflow (e.g. mesh generator)
+
+*Terminal - place where client runs
+
+*Workflow Server - machine which controls flow of the program
+
+*Calculation Server - place where modules' calculations are being performed
+
+*Administrator - person responsible for configuration of the workflow
+
+*Simulation user - person who can remotely run simulation through terminal 
