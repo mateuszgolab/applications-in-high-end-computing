@@ -15,7 +15,7 @@ MAIN ASSUMPTIONS
  * 6* Shall we paralelise workflow? How can we paralelize otherwise?
  * 7* Solver's output does not have to be scalar value - can be vector matrix, so that there is no fixed comparer.
  * 8* One iteration last minutes (or hours or days or years). Information needed for recovery system.
- * 9* Dispatcher??
+ * 9* Dispatcher as a main program controller?
 
 
 
