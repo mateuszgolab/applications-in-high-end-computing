@@ -10,4 +10,7 @@
    * c) module metadata files (commands/parameters XML)
 
 
+= Authentication =
+* 1 Authentication mechanism should be provided.
+* 2 Different roles will be provided (admin, scientist)
  
