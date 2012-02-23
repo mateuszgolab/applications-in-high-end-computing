@@ -1,31 +1,19 @@
 #summary Requirements for the Workflow program
 #labels Phase-Requirements
 
-
-
 = Functional Requirements =
 
   * 1 Recovery system: possibility of restarting workflow when system crushes.
+     * a Monitoring of errors: Users can see the exact location of failures.
+     * b Flexible recovery policy (depending on expected time of execution we decide to store data before/after module or after each iteration) 
   * 2 (FUNCTIONAL or NON??) Many users have possibility to connect to system simultaneously. But there is only one running program at time (users requests' go to queue - serial workflow).
   * 3 User can add/remove arbitrary number of modules into workflow.
   * 4 User can run simulation with uploaded parameters.
 
-  * 2 XML Descriptor: Define a descriptor file (XML) to describe each step of the workflow
-    * 2.1 Descriptor should descript the instructions and parameters for each module
-    * 2.2 The user should be able to change any components in the workflow without affecting other parts of the system
-  * 4 Possibility of exchange the individual modules
-  * 5 Monitoring of errors: Users can see the exact location of failures.
-  * 6 We may develop two modes of running: 	
-	1.mode: running with inner (hidden) validation dispatcher 		   modules. This version results slower execution.
-	2.mode: running without dispatchers, we assume the   		        inputs/outputs always proper. The aim of this 			   mode is faster running time.
-  * 7 Another way of mode separation -> different approach when the program discover an error:
-	1.mode: if error occured, the program suspends the 			   workflow running.
-	2.mode: in each case the whole process will execute, in 		   the end we show the location/type of errors
-  * 8 Print out running details(i.e. running time) after every module.
 
 = Non-functional Requirements =
 
    * 1 Validation: take care of input/output formats of specific modules.
    * 2 Create universal communication standards: communications protocols etc.
    * 3 Parallelization in optimistaion part (it's important especially when we execute algorithms given nondeterministic output)
-   * 4 
+   * 4 Descriptor files would be XML.
