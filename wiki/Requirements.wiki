@@ -12,9 +12,17 @@
   * 3 Simultaneous access to system: many users should have access to system recources.
   * 4 Possibility of exchange the individual modules
   * 5 Monitoring of errors: Users can see the exact location of failures.
-      
+  * 6 We may develop two modes of running: 	
+	1.mode: running with inner (hidden) validation dispatcher 		   modules. This version results slower execution.
+	2.mode: running without dispatchers, we assume the   		        inputs/outputs always proper. The aim of this 			   mode is faster running time.
+  * 7 Another way of mode separation -> different approach when the program discover an error:
+	1.mode: if error occured, the program suspends the 			   workflow running.
+	2.mode: in each case the whole process will execute, in 		   the end we show the location/type of errors
+  * 8 Print out running details(i.e. running time) after every module.
+
 = Non-functional Requirements =
 
    * 1 Validation: take care of input/output formats of specific modules.
    * 2 Create universal communication standards: communications protocols etc.
    * 3 Parallelization in optimistaion part (it's important especially when we execute algorithms given nondeterministic output)
+   * 4 
