@@ -7,8 +7,8 @@
 
   * 1 Recovery system: possibility of restarting workflow when system crushes.
   * 2 (FUNCTIONAL or NON??) Many users have possibility to connect to system simultaneously. But there is only one running program at time (users requests' go to queue - serial workflow).
-  * 3 Admin can add/remove arbitrary number of modules into workflow.
-  
+  * 3 User can add/remove arbitrary number of modules into workflow.
+  * 4 User can run simulation with uploaded parameters.
 
   * 2 XML Descriptor: Define a descriptor file (XML) to describe each step of the workflow
     * 2.1 Descriptor should descript the instructions and parameters for each module
