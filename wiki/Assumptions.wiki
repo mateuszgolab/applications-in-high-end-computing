@@ -4,7 +4,7 @@
 
 MAIN ASSUMPTIONS
 
- * 1* Parallel access to recources through clients(supercomputers, grids) - many users in the same time.  NOOOOOO
+ * 1* Parallel access to recources through clients(supercomputers, grids) - many users in the same time.  YEEESSSS
  * 2* Input and output are standarized. (Otherwise there would have to be translators between modules when in/out change - who would create translators?)
  * 3* There will be only one translator between two modules (if such a thing exists in system [translator]).
  * 4* Admin can, only replace not add/remove modules from workflow.
