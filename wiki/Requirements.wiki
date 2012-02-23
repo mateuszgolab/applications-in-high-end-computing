@@ -17,4 +17,4 @@
    * 2 Create universal/independent communication standards between modules
    * 3 Descriptor files would be XML.
    * 4 Modules can run on many different remote systems using different platforms but hey have to be already installed.
-   * 5 Network connection between terminal, workload server and remote systems are established.
+   * 5 Network connection between terminal, workload server and remote systems are established. <<<< WRITE MAIL is it user requirement?>>>>
