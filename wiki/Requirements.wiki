@@ -14,6 +14,5 @@
 = Non-functional Requirements =
 
    * 1 Validation: take care of input/output formats of specific modules.
-   * 2 Create universal communication standards: communications protocols etc.
-   * 3 Parallelization in optimistaion part (it's important especially when we execute algorithms given nondeterministic output)
-   * 4 Descriptor files would be XML.
+   * 2 Create universal/independent communication standards between modules
+   * 3 Descriptor files would be XML.
