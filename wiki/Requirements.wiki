@@ -16,3 +16,4 @@
    * 1 Validation: take care of input/output formats of specific modules.
    * 2 Create universal/independent communication standards between modules
    * 3 Descriptor files would be XML.
+   * 4 Modules can run on remote systems but they have to be already installed.
