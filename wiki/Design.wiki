@@ -9,6 +9,5 @@
    * b) format validation files (XSD)
    * c) module metadata files (commands/parameters XML)
 
-= Validation =
 
  
