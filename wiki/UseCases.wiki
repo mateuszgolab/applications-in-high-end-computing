@@ -33,4 +33,8 @@
   * 5 Admin provides XML file with recovery configuration of the workflow.
 
   * 6 Admin can stop/abort any running workflow.
+
+  * 7 Admin creates new user.
+
+  * 8 Admin inactivate user.
  
