@@ -14,10 +14,9 @@
   * 3 User can add/remove arbitrary number of modules into workflow.
   * 4 User can run simulation with uploaded parameters.
 
-
 = Non-functional Requirements =
 
-   * 1 Validation: take care of input/output formats of specific modules.
+   * 1 Reliability/Validation: take care of input/output formats of specific modules.
    * 2 Use universal/independent communication standards between modules
    * 3 Descriptor files would be XML.
    * 4 Modules can run on many different remote systems using different platforms but hey have to be already installed.
