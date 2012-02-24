@@ -7,10 +7,10 @@
 
 = Functional Requirements =
 
-  * 1 Recovery system: possibility of restarting workflow (Csaba: from the last stable/good point) when system crushes.
+  * 1 Recovery system: possibility of restarting workflow (from the last stable/good point) when system crushes.
      * 1.1 Monitoring of errors: Users can see the exact location of failures.
-     * 1.2 Flexible recovery policy (depending on expected time of execution we decide to store data before/after module or after each iteration)     (Csaba: Maybe it is a non-functional, recoverability is a non-functional behavior)
-  * 2 (FUNCTIONAL or NON??) Many users have possibility to connect to system simultaneously. But there is only one running program at time (users requests' go to queue - serial workflow).
+     * 1.2 Flexible recovery policy (depending on expected time of execution we decide to store data before/after module or after each iteration) 
+  * 2 Many users have possibility to connect to system simultaneously. But there is only one running program at time (users requests' go to queue - serial workflow).
   * 3 User can add/remove arbitrary number of modules into workflow.
   * 4 User can run simulation with uploaded parameters.
 
@@ -18,6 +18,6 @@
 
    * 1 Reliability/Validation: take care of input/output formats of specific modules.
    * 2 Use universal/independent communication standards between modules
-   * 3 Descriptor files would be XML.
+   * 3 Data flow should be based on XML files.
    * 4 Modules can run on many different remote systems using different platforms but hey have to be already installed.
    * 5 Network connection between terminal, workload server and remote systems are established.
