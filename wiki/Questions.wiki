@@ -5,6 +5,8 @@
 <MAJOR>
 
  * 1* Is established network connection a user non-functional requirement or shall we ignore it?
+ * 2* Many users have possibility to connect to system simultaneously. But there is only one running program at time (users requests' go to queue - serial workflow) <<<FUNCTIONAL OR NOT>>>. 
+
 
 <MINOR>
 
