@@ -9,7 +9,7 @@
 
   * 1 Recovery system: possibility of restarting workflow (Csaba: from the last stable/good point) when system crushes.
      * 1.1 Monitoring of errors: Users can see the exact location of failures.
-     * 1.2 Flexible recovery policy (depending on expected time of execution we decide to store data before/after module or after each iteration) 
+     * 1.2 Flexible recovery policy (depending on expected time of execution we decide to store data before/after module or after each iteration)     (Csaba: Maybe it is a non-functional, recoverability is a non-functional behavior)
   * 2 (FUNCTIONAL or NON??) Many users have possibility to connect to system simultaneously. But there is only one running program at time (users requests' go to queue - serial workflow).
   * 3 User can add/remove arbitrary number of modules into workflow.
   * 4 User can run simulation with uploaded parameters.
