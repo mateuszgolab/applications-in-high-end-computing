@@ -2,4 +2,35 @@
 
 = Use Cases =
 
-  * 1 
+<USER>
+
+  * 1 User log in.
+
+  * 2 User log out.
+
+
+<SCIENTIST>
+
+  * 1 Scientist runs simulation.
+         * 2  Upload parameters
+
+  * 3 Scientist downloads results
+
+  * 4 Scientist can stop/abort their workflow (but only their)
+
+  * 5 Scientist can check status/log of their workflow (position in queue, when started, were there any restarts, etc.)
+
+<ADMIN>
+  
+  * 1 Admin adds new module to workflow.
+  
+  * 2 Admin removes module from workflow.
+
+  * 3 Admin provides input/output metadata (XSD) of a module.
+
+  * 4 Admin provides XML file with execution parameters/commands of modules.
+
+  * 5 Admin provides XML file with recovery configuration of the workflow.
+
+  * 6 Admin can stop/abort any running workflow.
+ 
