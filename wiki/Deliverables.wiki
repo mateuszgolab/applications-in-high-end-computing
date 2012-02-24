@@ -2,11 +2,14 @@
 
 
 = Requirements =
-
-
+  * Functional and Non-Functional user requirements.
+  * System requirements using UML (use cases)
+  * Assumptions etc
 
 = Design =
-
+  * Literature review
+  * Architecture of a system (
+  * UML diagrams (sequence, class etc.)
 
 
 = Test plan =
