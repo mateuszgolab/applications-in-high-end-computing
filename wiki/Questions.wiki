@@ -4,6 +4,7 @@
 
 <MAJOR>
 
+ * 1* Is established network connection a user non-functional requirement or shall we ignore it?
 
 <MINOR>
 
