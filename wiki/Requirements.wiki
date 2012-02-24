@@ -1,9 +1,13 @@
 #summary Requirements for the Workflow program
 #labels Phase-Requirements
 
+= Description =
+
+(Csaba: Create a workflow simulation model for a complex system, where the program should schedule the execution of each modules.)
+
 = Functional Requirements =
 
-  * 1 Recovery system: possibility of restarting workflow when system crushes.
+  * 1 Recovery system: possibility of restarting workflow (Csaba: from the last stable/good point) when system crushes.
      * a Monitoring of errors: Users can see the exact location of failures.
      * b Flexible recovery policy (depending on expected time of execution we decide to store data before/after module or after each iteration) 
   * 2 (FUNCTIONAL or NON??) Many users have possibility to connect to system simultaneously. But there is only one running program at time (users requests' go to queue - serial workflow).
