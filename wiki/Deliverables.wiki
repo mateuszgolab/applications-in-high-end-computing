@@ -2,18 +2,23 @@
 
 
 = Requirements =
+  * Assumptions etc
   * Functional and Non-Functional user requirements.
   * System requirements using UML (use cases)
-  * Assumptions etc
 
 = Design =
   * Literature review
-  * Architecture of a system (
-  * UML diagrams (sequence, class etc.)
-
+  * Architecture of a system (system decomposition: e.q. layers) 
+  * UML diagrams (sequence, class, state machine etc.)
 
 = Test plan =
-
-
+  * Full validation test plan (prepare before implementation)
+  * Partial unit testing (either in parallel or after implementation)
+  * Code review (after implementation)
+  * Integration test (?)
 
 = Implementation =
+  * Implement at least one use case connected to recovery system
+  * Provide example outputs
+  * Provide code-based documentation (javadoc, oxygen)
+  * Brief explenations of choices (language, communication protocol etc.)
