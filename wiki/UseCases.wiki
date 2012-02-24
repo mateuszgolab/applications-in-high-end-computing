@@ -14,7 +14,7 @@
   * 1 Scientist runs simulation.
          * 2  Upload parameters
 
-  * 3 Scientist downloads results
+  * 3 Scientist downloads results of their workflow (current, previous)
 
   * 4 Scientist can stop/abort their workflow (but only their)
 
