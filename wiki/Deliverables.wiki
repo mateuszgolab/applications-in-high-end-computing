@@ -17,7 +17,7 @@
   * Integration test (?)
 
 = Implementation =
-  * Implement at least one use case connected to recovery system
+  * Provide source code of implemention of at least one use case connected to recovery system
   * Provide example outputs
   * Provide code-based documentation (javadoc, oxygen)
   * Brief explenations of choices (language, communication protocol etc.)
