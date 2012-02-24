@@ -2,9 +2,8 @@
 
 
 = Requirements =
-  * Assumptions etc
   * Functional and Non-Functional user requirements.
-  * System requirements using UML (use cases)
+  * System requirements using UML (use cases)  
 
 = Design =
   * Literature review
