@@ -11,3 +11,4 @@
 <MINOR>
 
  * 1* Shall we paralelise workflow? How can we paralelize otherwise?
+ * 2* Scientist can abort simulation during execution?
