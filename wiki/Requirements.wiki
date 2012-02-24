@@ -3,7 +3,7 @@
 
 = Description =
 
-(Csaba: Create a workflow simulation model for a complex system, where the program should schedule the execution of each modules.)
+(Create a workflow simulation model for a complex system, where the program should schedule the execution of each modules.)
 
 = Functional Requirements =
 
@@ -20,4 +20,4 @@
    * 2 Use universal/independent communication standards between modules
    * 3 Descriptor files would be XML.
    * 4 Modules can run on many different remote systems using different platforms but hey have to be already installed.
-   * 5 Network connection between terminal, workload server and remote systems are established. <<<< WRITE MAIL is it user requirement?>>>>
+   * 5 Network connection between terminal, workload server and remote systems are established.
