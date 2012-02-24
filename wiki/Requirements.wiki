@@ -3,7 +3,7 @@
 
 = Description =
 
-(Create a workflow simulation model for a complex system, where the program should schedule the execution of each modules.)
+Create a workflow simulation model for a complex system, where the program should schedule the execution of each modules.
 
 = Functional Requirements =
 
