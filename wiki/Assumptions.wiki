@@ -1,18 +1,10 @@
-#summary List of assumptions.
+#summary List of Question.
 
-= Controversial Assumptions (to ask Stuart) =
+= Question/Assumptions (to ask Stuart) =
 
-MAIN ASSUMPTIONS
+<MAJOR>
 
- * 1* Parallel access to recources through clients(supercomputers, grids) - many users in the same time.  YEEESSSS
- * 2* Input and output are standarized. (Otherwise there would have to be translators between modules when in/out change - who would create translators?)
- * 3* There will be only one translator between two modules (if such a thing exists in system [translator]).
- * 4* Admin can, only replace not add/remove modules from workflow.
- * 5* Nature of optimizer:
-    * a)* what changes Shape Parameters in each new iteration (not first one)
-    * b)* is this separate module, what happens when solver finishes? 
-    * c)* we have to run all modules (mesh, solver) before each iteration of optimising. 
- * 6* Shall we paralelise workflow? How can we paralelize otherwise?
- * 7* Solver's output does not have to be scalar value - can be vector matrix, so that there is no fixed comparer.
- * 8* One iteration last minutes (or hours or days or years). Information needed for recovery system.
- * 9* Dispatcher as a main program controller?
+
+<MINOR>
+
+ * 1* Shall we paralelise workflow? How can we paralelize otherwise?
