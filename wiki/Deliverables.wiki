@@ -2,6 +2,7 @@
 
 
 = Requirements =
+  * Dictionary
   * Functional and Non-Functional user requirements.
   * System requirements using UML (use cases)  
 
