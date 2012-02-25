@@ -4,9 +4,9 @@
 
 <USER>
 
-  * 1 User log in.
+  * 1 User logs in.
 
-  * 2 User log out.
+  * 2 User logs out.
 
 
 <SCIENTIST>
