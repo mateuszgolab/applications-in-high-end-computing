@@ -14,7 +14,8 @@
 = Authentication =
 * 1 Authentication mechanism should be provided.
 * 2 Different roles will be provided (admin, scientist)
- 
 
-= Sequential workflow pattern =
+=Design details= 
+
+== Sequential workflow pattern ==
 In this style, the workflow controls the sequence of activities and decides which of the steps will execute next. Although a sequential workflow can include conditional branching and looping, the path it follows is predictable. Consider sequential workflows if you must execute a series of predefined steps to accomplish a certain task.
