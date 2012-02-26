@@ -51,3 +51,7 @@ Process should be undone to the last stable point in workflow.
 Process should stop when error occured N times in the same point of workflow.
 
 <img src="http://typo3.org/typo3temp/tx_rlmpofficelib_8e75b40cdb.gif"/>
+
+
+==Questions==
+ * how to store data in Workflow program ? database or xml ?
