@@ -40,5 +40,5 @@ Choose this option if the workflow will change more frequently over time, if you
 ===Recovery actions===
  * Rollback 
 Process should be undone to the last stable point in workflow.
- * Stop
+ * Suspend
 Process should stop when error occured N times in the same point of workflow.
