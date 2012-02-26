@@ -21,6 +21,7 @@
 The workflow controls the sequence of activities and decides which of the steps will execute next. Consider sequential workflows if you must execute a series of predefined steps to accomplish a certain task.
 
 *Implementation*
+
 The sequence pattern is used to model consecutive steps in a workflow process and is directly supported by each of the workflow management systems available. The typical implementation involves linking two activities with an unconditional control flow arrow.
 
 http://www.workflowpatterns.com/patterns/control/basic/wcp1.php
