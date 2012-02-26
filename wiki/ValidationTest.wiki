@@ -96,6 +96,5 @@ An SRS should be(IEEE standard)
 
 *References*
   * Dorothy Graham, Erik van Veenendaal, Isabel Evans, Rex Black : "FOUNDATIONS OF SOFTWARE TESTING"
-  * Brian Hambling  : "SOFTWARE TESTING - An ISTQB–ISEB Foundation Guide", 
-2nd Edition, 2010
+  * Brian Hambling  : "SOFTWARE TESTING - An ISTQB–ISEB Foundation Guide", 2nd Edition, 2010
   * Rex Black, Jamie Mitchell : Advanced Software Testing Vol. 3 2011
