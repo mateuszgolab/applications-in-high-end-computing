@@ -4,6 +4,12 @@
 
 == Actors ==
 
+=== User === - person using system
+
+=== Scientis=== - person who can run simulation through terminal 
+
+=== Administrator=== - person responsible for configuration of the workflow
+
 *Project* - root of all evil [TODO]
 
 *System* - all resources and programs using in project
@@ -20,8 +26,7 @@
 
 *Calculation Server* - place where modules' calculations are being performed
 
-*Administrator* - person responsible for configuration of the workflow
 
-*Simulation user* - person who can remotely run simulation through terminal 
+
 
 == Other entities ==
