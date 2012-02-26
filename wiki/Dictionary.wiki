@@ -2,6 +2,8 @@
 
 = List of terms being used =
 
+== Actors ==
+
 *Project* - root of all evil [TODO]
 
 *System* - all resources and programs using in project
@@ -21,3 +23,5 @@
 *Administrator* - person responsible for configuration of the workflow
 
 *Simulation user* - person who can remotely run simulation through terminal 
+
+== Other entities ==
