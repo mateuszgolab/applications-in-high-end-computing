@@ -7,8 +7,8 @@ Brief research about acceptance testing
 = Acceptance test =
 
 *acceptance testing*: validation testing with respect to user needs, require ments, and business processes conducted to determine whether or not to accept the system.
-  problem: if an error occur at the end of the project it can be expensive
-  other names: functional test, black box test
+problem: if an error occur at the end of the project it can be expensive
+other names: functional test, black box test
 
 
 *Trace-ability Matrix*(requirements / Use cases)
@@ -17,8 +17,11 @@ Brief research about acceptance testing
 || Use-Case2 || o || || ||
 || ... || || || ||
 || Use-Casem || || o || ||
+
 (problem if one of the requirements doesn't covered with use-case)
+
 http://www.ibm.com/developerworks/rational/library/04/r-3217/3217_fig3.jpg
+
 To test that all the (functional)requirements are covered with use-cases.
 Useful in case of requirement change.
 
@@ -30,6 +33,7 @@ Useful in case of requirement change.
 || Test-Case2 || o || || ||
 || ... || || || ||
 || Test-Casek || || || o ||
+
 (problem if one of the use-cases doesn't covered with test-case)
 http://en.wikipedia.org/wiki/Traceability_matrix
 
