@@ -34,6 +34,6 @@ Choose this option if the workflow will change more frequently over time, if you
 
 === Error/Exception Types ===
 
-* 1 Module failure
-* 2 Timeout
-* 3 Resource unavailability
+* # Module failure
+* # Timeout
+* # Resource unavailability
