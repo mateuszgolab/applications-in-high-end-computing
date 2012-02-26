@@ -4,12 +4,14 @@
 
 == Actors ==
 
-===User=== 
-person using system
+*User* - person using system.
 
-=== Scientis=== - person who can run simulation through terminal 
+*Scientist* - person who can run simulation through terminal.
 
-=== Administrator=== - person responsible for configuration of the workflow
+*Administrator* - person responsible for configuration of the workflow.
+
+
+== Other entities ==
 
 *Project* - root of all evil [TODO]
 
@@ -29,5 +31,3 @@ person using system
 
 
 
-
-== Other entities ==
