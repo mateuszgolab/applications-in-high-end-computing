@@ -27,7 +27,9 @@ Useful in case of requirement change.
 
 
 *Trace-ability Matrix*(Request or Use cases / Test Cases)
+
 (two version: in the columns there can be use-cases or requirements )
+
 || || Use-Case1 || ... || Use-Casem ||
 || Test-Case1 || o || || ||
 || Test-Case2 || o || || ||
@@ -35,6 +37,7 @@ Useful in case of requirement change.
 || Test-Casek || || || o ||
 
 (problem if one of the use-cases doesn't covered with test-case)
+
 http://en.wikipedia.org/wiki/Traceability_matrix
 
 = Requirement test =
