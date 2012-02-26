@@ -4,7 +4,8 @@
 
 == Actors ==
 
-===User=== - person using system
+===User=== 
+person using system
 
 === Scientis=== - person who can run simulation through terminal 
 
