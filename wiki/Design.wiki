@@ -11,8 +11,8 @@
 
 
 = Authentication =
-* 1 Authentication mechanism should be provided.
-* 2 Different roles will be provided (admin, scientist)
+ * 1 Authentication mechanism should be provided.
+ * 2 Different roles will be provided (admin, scientist)
 
 =Design details= 
 
@@ -33,6 +33,6 @@ Choose this option if the workflow will change more frequently over time, if you
 
 === Error/Exception Types ===
 
-* # Module failure
-* # Timeout
-* # Resource unavailability
+ * Module failure
+ * Timeout
+ * Resource unavailability
