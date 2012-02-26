@@ -44,11 +44,9 @@ http://en.wikipedia.org/wiki/Traceability_matrix
 
 Test cases specify for each testing requirement:
 
-* The exact input values that will be input and the values of any standing data that is required,
-
-* The exact output values and changes of value of the internal system state that are expected,
-
-* And any special steps for setting up the tests.
+  * The exact input values that will be input and the values of any standing data that is required,
+  * The exact output values and changes of value of the internal system state that are expected,
+  * And any special steps for setting up the tests.
 
 http://qaquestions.net/wp-content/uploads/2010/04/Test-Case_Login1.pdf
 
@@ -97,9 +95,7 @@ An SRS should be(IEEE standard)
   * are all infos contained in slides requirements or some of them are just suggestions how to resolve problems
 
 *References*
-* Dorothy Graham, Erik van Veenendaal, Isabel Evans, Rex Black : "FOUNDATIONS OF SOFTWARE TESTING"
-
-* Brian Hambling  : "SOFTWARE TESTING - An ISTQB–ISEB Foundation Guide", 
+  * Dorothy Graham, Erik van Veenendaal, Isabel Evans, Rex Black : "FOUNDATIONS OF SOFTWARE TESTING"
+  * Brian Hambling  : "SOFTWARE TESTING - An ISTQB–ISEB Foundation Guide", 
 2nd Edition, 2010
-
-* Rex Black, Jamie Mitchell : Advanced Software Testing Vol. 3 2011
+  * Rex Black, Jamie Mitchell : Advanced Software Testing Vol. 3 2011
