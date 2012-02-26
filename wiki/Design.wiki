@@ -1,8 +1,7 @@
 #summary temporary design document.
 #labels Phase-Design
 
-= Validation =
-
+=Validation=
 * 1 Validation is being done by XSD files.
 * 2 One XSD file between two modules.
 * 3 Workflow consists of: 
