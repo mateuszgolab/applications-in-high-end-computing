@@ -2,9 +2,9 @@
 #labels Phase-Design
 
 =Validation=
-* 1 Validation is being done by XSD files.
-* 2 One XSD file between two modules.
-* 3 Workflow consists of: 
+ * 1 Validation is being done by XSD files.
+ * 2 One XSD file between two modules.
+ * 3 Workflow consists of: 
    * a) modules(so called translator are also modules)
    * b) format validation files (XSD)
    * c) module metadata files (commands/parameters XML)
