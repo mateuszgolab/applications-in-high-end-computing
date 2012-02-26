@@ -19,6 +19,7 @@
 ==Patterns==
 ===Control flow pattern : Sequential workflow pattern ===
 The workflow controls the sequence of activities and decides which of the steps will execute next. Consider sequential workflows if you must execute a series of predefined steps to accomplish a certain task.
+http://www.workflowpatterns.com/patterns/control/basic/wcp1.php
 
 ===Data pattern : Task Data ===
 Data elements can be defined by tasks which are accessible only within the context of individual execution instances of that task.
