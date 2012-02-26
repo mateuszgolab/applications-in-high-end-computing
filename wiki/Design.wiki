@@ -19,3 +19,6 @@
 
 == Sequential workflow pattern ==
 In this style, the workflow controls the sequence of activities and decides which of the steps will execute next. Although a sequential workflow can include conditional branching and looping, the path it follows is predictable. Consider sequential workflows if you must execute a series of predefined steps to accomplish a certain task.
+
+== Markup authoring mode ==
+Choose this option if the workflow will change more frequently over time, if your business rules associated with the workflow can be easily expressed using markup languages, you do not need to create new workflow types, and you need the flexibility to update the workflow model without rebuilding the workflow types referenced by the model.
