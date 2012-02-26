@@ -20,22 +20,8 @@
 ===Control flow pattern : Sequential workflow pattern ===
 The workflow controls the sequence of activities and decides which of the steps will execute next. Consider sequential workflows if you must execute a series of predefined steps to accomplish a certain task.
 
-Description An activity in a work
-ow process is enabled after the completion of another
-activity in the same process.
-Synonyms Sequential routing, serial routing.
-Examples
-- Activity send bil l is executed after the execution of activity send goods.
-- An insurance claim is evaluated after the client's le is retrieved.
-6- Activity add air miles is executed after the execution of activity book 
-ight.
-Implementation
-- The sequence pattern is used to model consecutive steps in a work
-ow process and is
-directly supported by each of the work
-ow management systems available. The typical
-implementation involves linking two activities with an unconditional control 
-ow arrow.
+*Implementation*
+The sequence pattern is used to model consecutive steps in a workflow process and is directly supported by each of the workflow management systems available. The typical implementation involves linking two activities with an unconditional control flow arrow.
 
 http://www.workflowpatterns.com/patterns/control/basic/wcp1.php
 
