@@ -32,7 +32,8 @@ Data elements can be defined by tasks which are accessible only within the conte
 == Markup authoring mode ==
 Choose this option if the workflow will change more frequently over time, if your business rules associated with the workflow can be easily expressed using markup languages, you do not need to create new workflow types, and you need the flexibility to update the workflow model without rebuilding the workflow types referenced by the model.
 
-===Error/Exception Types ===
+=== Error/Exception Types ===
+
 * Module failure
 * Timeout
 * Resource unavailability
