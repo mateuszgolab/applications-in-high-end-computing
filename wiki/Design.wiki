@@ -30,7 +30,11 @@ http://www.workflowpatterns.com/patterns/control/basic/wcp1.php
 ===Data pattern : Task Data ===
 Data elements can be defined by tasks which are accessible only within the context of individual execution instances of that task.
 
-===Resource pattern : ===
+===Resource pattern : Automatic execution ===
+
+Every module in a workflow is managing resources independently. There is no Workflow's external polity to manage resources. Module is able to execute independently once the specified enabling criteria are met (enough resources available to run module) 
+
+http://www.workflowpatterns.com/patterns/resource/creation/wrp11.php
 
 ===Presentation pattern : ===
 
