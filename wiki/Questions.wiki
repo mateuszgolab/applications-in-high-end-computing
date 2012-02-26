@@ -7,13 +7,12 @@
  * 1 Is established network connection a user non-functional requirement or shall we ignore it?
  * 2 Many users have possibility to connect to system simultaneously. But there is only one running program at time (users requests' go to queue - serial workflow) <<<FUNCTIONAL OR NOT>>>. 
  * 3 Shall we treat Recovery Manager as a actor?
+ * 4 Dispatcher is a requirement?
+ * 5 Are all infos contained in slides requirements or some of them are just suggestions how to resolve problems
 
 <MINOR>
 
  * 1 Shall we paralelise workflow? How can we paralelize otherwise?
  * 2 Scientist can abort simulation during execution?
+ * 3 We should mention that there is a possibility to use translator, but it is a simple module too (maybe just in the dictionary can be enough)
 
-
- * Dispatcher is a requirement?
- * We should mention that there is a possibility to use translator, but it is a simple module too (maybe just in the dictionary can be enough)
- * Are all infos contained in slides requirements or some of them are just suggestions how to resolve problems
