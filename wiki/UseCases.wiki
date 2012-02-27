@@ -2,14 +2,15 @@
 
 = Use Cases =
 
-==USER==
+----
+==User==
 
   * UC_U1: Log in. 
 
   * UC_U2: Log out.
 
-
-==SCIENTIST==
+----
+==Scientist==
 
   * UC_S1: Run simulation.
   
@@ -21,7 +22,8 @@
 
   * UC_S5: Check status/log of workflow.
 
-==ADMIN==
+----
+==Admin==
   
   * UC_A1: Add new module to workflow.
   
