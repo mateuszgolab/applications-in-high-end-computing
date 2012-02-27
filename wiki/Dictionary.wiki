@@ -13,21 +13,29 @@
 
 == Other entities ==
 
-*Project* - root of all evil [TODO]
+*System* - all resources and programs used in order to realize project aims. Organised, logically in three layers: access, controlling and calculating one. 
 
-*System* - all resources and programs using in project
-
-*Workflow* - program running on workflow server (sequence of steps) 
+=Layer of access=
 
 *Client* - program which gives users possibility to remotely run simulation or administrator to change settings of workflow
 
-*Module* - single unit of workflow (e.g. mesh generator)
-
 *Terminal* - place where client runs
 
-*Workflow Server* - machine which controls flow of the program
+=Layer of control=
 
-*Calculation Server* - place where modules' calculations are being performed
+*Workflow* - main program running on Workflow Server controlling all operations on it.  
 
+*Workflow Server* - logical machine where actual execution of project is being perform.
 
+*Workflow Manager* - program which executes and controls Workflow Sequence. Responsible for sending commands and parameters to particular Modules.
+
+*Workflow Sequence* - ordered, connected list of programs performing actual work of system. Sequence of steps neccessary to finish task.
+
+*Module* - single unit-program within Workflow Sequence added by Administrator.
+
+*Recovery Manager* - program which performs all tasks in order to assure safe recovery in case of crush during execution of Workflow Manager.
+
+=Layer of calculation=
+
+*Calculation Server* - place where modules' calculations are being performed.
 
