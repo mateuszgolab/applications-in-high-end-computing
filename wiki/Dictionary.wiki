@@ -2,6 +2,7 @@
 
 = List of terms being used =
 
+
 == Actors ==
 
 *User* - person using system.
@@ -11,17 +12,18 @@
 *Administrator* - person responsible for configuration of the workflow.
 
 
+
 == Other entities ==
 
 *System* - all resources and programs used in order to realize project aims. Organised, logically in three layers: access, controlling and calculating one. 
 
-=Layer of access=
+===Layer of access===
 
-*Client* - program which gives users possibility to remotely run simulation or administrator to change settings of workflow
+*Client* - program which gives Scientist possibility to remotely run simulation or Administrator to change settings of Workflow.
 
-*Terminal* - place where client runs
+*Terminal* - place where Client runs.
 
-=Layer of control=
+===Layer of control===
 
 *Workflow* - main program running on Workflow Server controlling all operations on it.  
 
@@ -35,7 +37,6 @@
 
 *Recovery Manager* - program which performs all tasks in order to assure safe recovery in case of crush during execution of Workflow Manager.
 
-=Layer of calculation=
+===Layer of calculation===
 
 *Calculation Server* - place where modules' calculations are being performed.
-
