@@ -11,9 +11,7 @@
 
 *Administrator* - person responsible for configuration of the workflow.
 
-
-
-
+----
 
 == Other entities ==
 
