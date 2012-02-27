@@ -1,6 +1,6 @@
 #summary Dictionary of the project.
 
-= List of terms being used =
+= List of terms being used in project: =
 
 ----
 ----
