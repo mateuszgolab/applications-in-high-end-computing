@@ -2,39 +2,40 @@
 
 = Use Cases =
 
-<USER>
+==USER==
 
-  * 1 User logs in.
+  * UC_U1: Log in. 
 
-  * 2 User logs out.
+  * UC_U2: Log out.
 
 
-<SCIENTIST>
+==SCIENTIST==
 
-  * 1 Scientist runs simulation.
-         * 2  Upload parameters
-
-  * 3 Scientist downloads results of their workflow (current, previous)
-
-  * 4 Scientist can stop/abort their workflow (but only their)
-
-  * 5 Scientist can check status/log of their workflow (position in queue, when started, were there any restarts, etc.)
-
-<ADMIN>
+  * UC_S1: Run simulation.
   
-  * 1 Admin adds new module to workflow.
+  * UC_S2: Upload simulation parameters.
+
+  * UC_S3: Download results of a simulation.
+
+  * UC_S4: Start/Stop workflow.
+
+  * UC_S5: Check status/log of workflow.
+
+==ADMIN==
   
-  * 2 Admin removes module from workflow.
+  * UC_A1: Add new module to workflow.
+  
+  * UC_A2: Remove module from workflow.
 
-  * 3 Admin provides input/output metadata (XSD) of a module.
+  * UC_A3: Provide input/output metadata (XSD) of a module.
 
-  * 4 Admin provides XML file with execution parameters/commands of modules.
+  * UC_A4: Provide XML file with execution parameters and commands.
 
-  * 5 Admin provides XML file with recovery configuration of the workflow.
+  * UC_A5: Provides XML file with recovery configuration
 
-  * 6 Admin can stop/abort any running workflow.
+  * UC_A6: Stop/abort running workflow. 
 
-  * 7 Admin creates new user.
+  * UC_A7: Create new user.
 
-  * 8 Admin inactivates user.
+  * UC_A8: Inactivate user.
  
