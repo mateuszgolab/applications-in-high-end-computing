@@ -2,41 +2,44 @@
 
 = List of terms being used =
 
+----
+----
 
 == Actors ==
 
-*User* - person using system.
+*User* - person using System.
 
-*Scientist* - person who can run simulation through terminal.
+*Scientist* - person who can use Workflow to run simulation through Terminal using Client.
 
-*Administrator* - person responsible for configuration of the workflow.
+*Administrator* - person responsible for configuration of the Workflow.
 
+----
 ----
 
 == Other entities ==
 
 *System* - all resources and programs used in order to realize project aims. Organised, logically in three layers: access, controlling and calculating one. 
-
-===Layer of access===
+----
+===Access layer===
 
 *Client* - program which gives Scientist possibility to remotely run simulation or Administrator to change settings of Workflow.
 
 *Terminal* - place where Client runs.
+----
+===Control layer===
 
-===Layer of control===
+*Workflow* - main program controlling system performance. Starting all managers and therefore, indirectly modules.  
 
-*Workflow* - main program running on Workflow Server controlling all operations on it.  
+*Workflow Server* - logical machine where Workflow runs.
 
-*Workflow Server* - logical machine where actual execution of project is being perform.
+*Workflow Sequence* - ordered, connected list of programs performing actual work of system. Sequence of steps neccessary to finish task. Set up by Administrator.
 
 *Workflow Manager* - program which executes and controls Workflow Sequence. Responsible for sending commands and parameters to particular Modules.
-
-*Workflow Sequence* - ordered, connected list of programs performing actual work of system. Sequence of steps neccessary to finish task.
 
 *Module* - single unit-program within Workflow Sequence added by Administrator.
 
 *Recovery Manager* - program which performs all tasks in order to assure safe recovery in case of crush during execution of Workflow Manager.
+----
+===Calculation layer===
 
-===Layer of calculation===
-
-*Calculation Server* - place where modules' calculations are being performed.
+*Calculation Server* - logical place where modules' calculations are being performed.
