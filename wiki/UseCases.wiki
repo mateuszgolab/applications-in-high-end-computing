@@ -2,12 +2,15 @@
 
 = Use Cases =
 
+
 ----
 ==User==
 
   * UC_U1: Log in. 
 
   * UC_U2: Log out.
+
+  * UC_U3: Stop Simulation.
 
 ----
 ==Scientist==
@@ -18,9 +21,7 @@
 
   * UC_S3: Download results of a Simulation.
 
-  * UC_S4: Stop Simulation.
-
-  * UC_S5: Check status/log of Simulation.
+  * UC_S4: Check status/log of Simulation.
 
 ----
 ==Admin==
@@ -35,9 +36,7 @@
 
   * UC_A5: Provides XML file with recovery configuration
 
-  * UC_A6: Stop/abort running Workflow. 
+  * UC_A6: Create new User.
 
-  * UC_A7: Create new User.
-
-  * UC_A8: Inactivate User.
+  * UC_A7: Inactivate User.
  
