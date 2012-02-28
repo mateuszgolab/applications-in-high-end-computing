@@ -13,6 +13,10 @@
 
 *Administrator* - person responsible for configuration of the Workflow.
 
+*Workflow Manager* - program which executes and controls Workflow Sequence. Responsible for sending commands and parameters to particular Modules.
+
+*Recovery Manager* - program which performs all tasks in order to assure safe recovery in case of crush during execution of Workflow Manager.
+
 ----
 ----
 
@@ -28,17 +32,16 @@
 ----
 ===Control layer===
 
-*Workflow* - main program controlling system performance. Starting all managers and therefore, indirectly modules.  
+*Workflow* - all entities: programs and modules solving actual and controlling scientist task.  
 
 *Workflow Server* - logical machine where Workflow runs.
 
-*Workflow Sequence* - ordered, connected list of programs performing actual work of system. Sequence of steps neccessary to finish task. Set up by Administrator.
+*Workflow Queue* - queue of jobs (workflow with specific parameters) sent by Scientist waiting for execution.
 
-*Workflow Manager* - program which executes and controls Workflow Sequence. Responsible for sending commands and parameters to particular Modules.
+*Workflow Sequence* - ordered, connected list of programs performing actual work of system. Sequence of steps neccessary to finish task. Set up by Administrator.
 
 *Module* - single unit-program within Workflow Sequence added by Administrator.
 
-*Recovery Manager* - program which performs all tasks in order to assure safe recovery in case of crush during execution of Workflow Manager.
 ----
 ===Calculation layer===
 
