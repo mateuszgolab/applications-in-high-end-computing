@@ -12,32 +12,32 @@
 ----
 ==Scientist==
 
-  * UC_S1: Run simulation.
+  * UC_S1: Run Simulation.
   
-  * UC_S2: Upload simulation parameters.
+  * UC_S2: Upload Simulation parameters.
 
-  * UC_S3: Download results of a simulation.
+  * UC_S3: Download results of a Simulation.
 
-  * UC_S4: Start/Stop workflow.
+  * UC_S4: Stop Simulation.
 
-  * UC_S5: Check status/log of workflow.
+  * UC_S5: Check status/log of Simulation.
 
 ----
 ==Admin==
   
-  * UC_A1: Add new module to workflow.
+  * UC_A1: Add new module to Workflow.
   
-  * UC_A2: Remove module from workflow.
+  * UC_A2: Remove module from Workflow.
 
-  * UC_A3: Provide input/output metadata (XSD) of a module.
+  * UC_A3: Provide input/output metadata (XSD) of a Module.
 
   * UC_A4: Provide XML file with execution parameters and commands.
 
   * UC_A5: Provides XML file with recovery configuration
 
-  * UC_A6: Stop/abort running workflow. 
+  * UC_A6: Stop/abort running Workflow. 
 
-  * UC_A7: Create new user.
+  * UC_A7: Create new User.
 
-  * UC_A8: Inactivate user.
+  * UC_A8: Inactivate User.
  
