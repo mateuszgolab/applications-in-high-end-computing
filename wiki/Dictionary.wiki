@@ -13,9 +13,9 @@
 
 *Administrator* - person responsible for configuration of the Workflow.
 
-*Workflow Manager* - program which executes and controls Workflow Sequence. Responsible for sending commands and parameters to particular Modules.
+*Workflow Manager* - program which controls Workflow. Responsible for sending commands and parameters to particular parts.
 
-*Recovery Manager* - program which performs all tasks in order to assure safe recovery in case of crush during execution of Workflow Manager.
+*Recovery Manager* - program which performs all tasks in order to assure safe recovery in case of crush during execution modules of Workflow Sequence.
 
 ----
 ----
