@@ -11,16 +11,26 @@ _Italic_ - answered / waiting for answer
 
 ==Major==
 
- * _1 Is established network connection a user non-functional requirement or shall we ignore it?_
- * _2 Many users have possibility to connect to system simultaneously. But there is only one running program at time (users requests' go to queue - serial workflow) <<<FUNCTIONAL OR NOT>>>._ 
- * _3 Shall we treat Recovery Manager as a actor?_
- * 4 *Dispatcher is a requirement?*
- * _5 Are all infos contained in slides requirements or some of them are just suggestions how to resolve problems_
-
-----
+ * _1 Many users have possibility to connect to system simultaneously. But there is only one running program at time (users requests' go to queue - serial workflow) <<<FUNCTIONAL OR NOT>>>._ 
 
 ==Minor==
 
  * 1  *Shall we paralelise workflow? How can we paralelize otherwise?*
- * _2 Scientist can abort simulation during execution?_
- * 3 *We should mention that there is a possibility to use translator, but it is a simple module too (maybe just in the dictionary can be enough)*
+ * 2 *We should mention that there is a possibility to use translator, but it is a simple module too (maybe just in the dictionary can be enough)*
+
+==Asked Questions by Stuart==
+
+1. Shall user (scientist) have possibility to abort simulation during execution of workflow?
+*Yes, why not, although it isn't strictly part of the requirements.*
+
+2. Is established network connection a user non-functional requirement or shall we ignore it and remove from requirements list?
+*Stable network connectivity is a non-functional requirement as it specifies a potential constraint on the operation of the completed system*
+
+3. If there is a system (of course totally independent from HPC project) where many users have possibility to connect to it simultaneously - is this feature functional or non-functional requirement?
+*The functional requirement would be the ability to submit jobs to arbitrary platforms. The non-functional requirement would be to have access to appropriate resources, regardless of the details of whether other people would be connected to it.*
+
+4. If there is another system (of course totally independent from HPC project)  and internal part of this system would be so called Recovery Manager responsible for different activities connected with data recovery, shall we treat it as a actor in use case diagram? Or rather ignore it and place rather in design part?
+*You can use the Recovery Manager as an actor in a Use Case diagram, certainly. It would allow you to specify the functionality that is the responsibility of that sub-system.*
+
+5. Are Dispatcher, XML descriptor and XML descriptor interpreter elements of requirements or rather proposed design parts? Should we assume that everything included in "Application in High End Computing - Group Project" notes is a kind of requirement or some of them are just suggestions how to resolve problems or design program?
+*No, the XML elements were suggested ways of looking at the problem. I am happy for you to take whatever approach you think is best.*
