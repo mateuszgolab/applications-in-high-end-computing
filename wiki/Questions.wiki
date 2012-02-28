@@ -2,14 +2,14 @@
 
 = Question/Assumptions (to ask Stuart) =
 
-*Bold* - To ask
+*Bold* - to ask
 
 _Italic_ - answered / waiting for answer
 
 ----
 ----
 
-==MAJOR==
+==Major==
 
  * _1 Is established network connection a user non-functional requirement or shall we ignore it?_
  * _2 Many users have possibility to connect to system simultaneously. But there is only one running program at time (users requests' go to queue - serial workflow) <<<FUNCTIONAL OR NOT>>>._ 
@@ -19,7 +19,7 @@ _Italic_ - answered / waiting for answer
 
 ----
 
-==MINOR==
+==Minor==
 
  * 1  *Shall we paralelise workflow? How can we paralelize otherwise?*
  * _2 Scientist can abort simulation during execution?_
