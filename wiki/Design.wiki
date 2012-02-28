@@ -61,3 +61,7 @@ Process should stop when error occured N times in the same point of workflow.
 
 ==Questions==
  * how to store data in Workflow program ? database or xml ?
+
+
+==WOrkflow Design document==
+http://code.google.com/p/applications-in-high-end-computing/source/browse/#svn%2Ftrunk%2FDocs
