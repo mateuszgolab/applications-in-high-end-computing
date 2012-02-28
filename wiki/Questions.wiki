@@ -11,8 +11,7 @@ _Italic_ - answered / waiting for answer
 
 ==Major==
 
- * _1 Many users have possibility to connect to system simultaneously. But there is only one running program at time (users requests' go to queue - serial workflow) <<<FUNCTIONAL OR NOT>>>._ 
- * 2 Can we assume that program (module) installed on remote system is able to send back results to our workflow server? Or do we have to assume that administrator should install a wrapper responsible to send back module's result?
+ * 1 Can we assume that program (module) installed on remote system is able to send back results to our workflow server? Or do we have to assume that administrator should install a wrapper responsible to send back module's result?
 
 
 ==Minor==
