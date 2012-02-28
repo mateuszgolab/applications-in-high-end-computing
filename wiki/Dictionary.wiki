@@ -23,6 +23,8 @@
 == Other entities ==
 
 *System* - all resources and programs used in order to realize project aims. Organised, logically in three layers: access, controlling and calculating one. 
+
+*Simulation* - XXXXXX
 ----
 ===Access layer===
 
