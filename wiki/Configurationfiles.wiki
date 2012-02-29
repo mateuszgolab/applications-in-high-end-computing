@@ -52,7 +52,7 @@ Number of files: N
 
 XSD file for validate input and output of each module.
 
-Number of files: N
+Number of files: M
 
 == initialParametersSkeleton.xml ==
 
