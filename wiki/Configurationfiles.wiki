@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Role of each configuration file.
 
 = Configuration files =
 
