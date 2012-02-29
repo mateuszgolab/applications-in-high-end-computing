@@ -1,0 +1,16 @@
+#summary One-sentence summary of this page.
+
+= Configuration files =
+
+Role of each configuration file.
+
+== conf.xml ==
+
+Contains parameters for the main application.
+
+Contents:
+_<skipBackupTimeLimit value=10000>_(value in seconds)
+_<numberOfLastBackups value=3>_
+_<restoreGapTime value=500>_(value in seconds)
+_<workflowFailureAction value=(RESTART_SIMULATION|TERMINATE|RESTART_RECOVERY)>_
+_<mailNotification value=(TRUE|FALSE)>_
