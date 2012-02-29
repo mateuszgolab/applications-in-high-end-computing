@@ -8,6 +8,8 @@
 ===Major===
 
  * 1 Responsibility for reports. Are all team members responsible for all reports or shell we specify in report who was responsible for it?
+ * 2 How important is the document about project/team management ?
+
 
 ----
 ===Minor===
