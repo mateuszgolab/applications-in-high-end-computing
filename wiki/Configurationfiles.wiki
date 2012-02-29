@@ -56,6 +56,6 @@ Number of files: N
 
 == initialParametersSkeleton.xml ==
 
-Structure of initial parameters.
+Structure of input parameters of first module in the workflow sequence.
 
 Number of files: 1
