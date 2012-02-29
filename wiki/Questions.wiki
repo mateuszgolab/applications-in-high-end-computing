@@ -1,20 +1,21 @@
 #summary List of Question.
 
-= Question/Assumptions (to ask Stuart) =
+==Question to ask==
 
 ----
 ----
 
-==Major==
+===Major===
 
  * 1 Responsibility for reports. Are all team members responsible for all reports or shell we specify in report who was responsible for it?
 
 ----
-==Minor==
+===Minor===
 
  * 1 Shall we paralelise workflow? How can we paralelize otherwise?
  * 2 We should mention that there is a possibility to use translator, but it is a simple module too (maybe just in the dictionary can be enough)
 
+----
 ----
 ==Answered Questions - the newer the bigger number==
 
