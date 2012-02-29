@@ -26,7 +26,7 @@ Contents:
 
 The time value are in seconds. 
 
-== moduleparameters.xml ==
+== moduleParameters.xml ==
 
 Contains bunch of information for each module.
 
@@ -40,3 +40,22 @@ Number of files: N
  <executionCommand value="">
 
 </code>
+
+
+== validator.xsd ==
+
+XSD file for validate input and output of each module.
+
+Number of files: N
+
+== scientistParameters.xml ==
+
+XSD file for validate input and output of each module.
+
+Number of files: N
+
+== initialParametersSkeleton.xml ==
+
+Structure of initial parameters.
+
+Number of files: 1
