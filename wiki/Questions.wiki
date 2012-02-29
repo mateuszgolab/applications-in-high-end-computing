@@ -2,23 +2,20 @@
 
 = Question/Assumptions (to ask Stuart) =
 
-*Bold* - to ask
-
-_Italic_ - answered / waiting for answer
-
 ----
 ----
 
 ==Major==
 
- * 1 Can we assume that program (module) installed on remote system is able to send back results to our workflow server? Or do we have to assume that administrator should install a wrapper responsible to send back module's result?
+ * 1 Responsibility for reports. Are all team members responsible for all reports or shell we specify in report who was responsible for it?
 
-
+----
 ==Minor==
 
  * 1 Shall we paralelise workflow? How can we paralelize otherwise?
  * 2 We should mention that there is a possibility to use translator, but it is a simple module too (maybe just in the dictionary can be enough)
 
+----
 ==Asked Questions by Stuart==
 
 1. Shall user (scientist) have possibility to abort simulation during execution of workflow?
@@ -38,5 +35,10 @@ _Italic_ - answered / waiting for answer
 *You can use the Recovery Manager as an actor in a Use Case diagram, certainly. It would allow you to specify the functionality that is the responsibility of that sub-system.*
 
 5. Are Dispatcher, XML descriptor and XML descriptor interpreter elements of requirements or rather proposed design parts? Should we assume that everything included in "Application in High End Computing - Group Project" notes is a kind of requirement or some of them are just suggestions how to resolve problems or design program?
+
+6. Can we assume that program (module) installed on remote system is able to send back results to our workflow server? Or do we have to assume that administrator should install a wrapper responsible to send back module's result?
+
+*I think that will be a key part of your design. Somehow, the activities on a remote server need to be communicated to the process managing the workflow. The implementation details for this are not important at this point, however you need to make a decision regarding the overall design. You may need to install a server on the remote system, responsible for sending the results back, or perhaps the workflow manager can query the remote process directly somehow. This is an argument between the use of push or pull communications in your design. It's you decision!* 
+
 
 *No, the XML elements were suggested ways of looking at the problem. I am happy for you to take whatever approach you think is best.*
