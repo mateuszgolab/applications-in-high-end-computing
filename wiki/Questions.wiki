@@ -16,7 +16,7 @@
  * 2 We should mention that there is a possibility to use translator, but it is a simple module too (maybe just in the dictionary can be enough)
 
 ----
-==Asked Questions by Stuart==
+==Answered Questions - the newer the bigger number==
 
 1. Shall user (scientist) have possibility to abort simulation during execution of workflow?
 
