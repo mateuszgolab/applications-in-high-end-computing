@@ -6,7 +6,7 @@ Role of each configuration file.
 
 N = number of modules in the workflow.
 
-M = number of simulations in the WorkflowQueue
+M = number of simulations in the workflowQueue
 
 == conf.xml ==
 
