@@ -12,7 +12,7 @@
  * 3 Are we supposed to implement integration test, or only plan them? 
 
 
-4. - AGAIN - If there is a system (of course totally independent from HPC project) where many users have possibility to connect to it simultaneously - is this feature functional or non-functional requirement?
+ * 4. - AGAIN - If there is a system (of course totally independent from HPC project) where many users have possibility to connect to it simultaneously - is this feature functional or non-functional requirement?
 
 The functional requirement would be the ability to submit jobs to arbitrary platforms. The non-functional requirement would be to have access to appropriate resources, regardless of the details of whether other people would be connected to it.
 
