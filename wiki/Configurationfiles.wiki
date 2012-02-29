@@ -8,9 +8,35 @@ Role of each configuration file.
 
 Contains parameters for the main application.
 
+Number of files: 1
+
 Contents:
-_<skipBackupTimeLimit value=10000>_(value in seconds)
-_<numberOfLastBackups value=3>_
-_<restoreGapTime value=500>_(value in seconds)
-_<workflowFailureAction value=(RESTART_SIMULATION|TERMINATE|RESTART_RECOVERY)>_
-_<mailNotification value=(TRUE|FALSE)>_
+<code language="xml">
+ <skipBackupTimeLimit value=10000>
+
+ <numberOfLastBackups value=3>
+
+ <restoreGapTime value=500>
+
+ <workflowFailureAction value=(RESTART_SIMULATION|TERMINATE|RESTART_RECOVERY)>
+
+ <mailNotification value=(TRUE|FALSE)>
+
+</code>
+
+The time value are in seconds. 
+
+== moduleparameters.xml ==
+
+Contains bunch of information for each module.
+
+Number of files: N
+
+<code language="xml">
+ <estimatedTime value=10000>
+
+ <numberOfProcessors value=3>
+
+ <executionCommand value="">
+
+</code>
