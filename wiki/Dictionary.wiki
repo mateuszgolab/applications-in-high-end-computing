@@ -7,7 +7,7 @@
 
 == Actors ==
 
-*User* - person using System.
+*User* - person who uses System.
 
 *Scientist* - person who can use Workflow to run simulation through Terminal using Client.
 
@@ -22,9 +22,8 @@
 
 == Other entities ==
 
-*System* - all resources and programs used in order to realize project aims. Organised, logically in three layers: access, controlling and calculating one. 
+*System* - all resources and programs used in order to achieve project's aims. Organised, logically in three layers: access, controlling and calculating one. 
 
-*Simulation* - XXXXXX
 ----
 ===Access layer===
 
@@ -38,9 +37,11 @@
 
 *Workflow Server* - logical machine where Workflow runs.
 
-*Workflow Queue* - queue of jobs (workflow with specific parameters) sent by Scientist waiting for execution.
-
 *Workflow Sequence* - ordered, connected list of programs performing actual work of system. Sequence of steps neccessary to finish task. Set up by Administrator.
+
+*Simulation* - all start parameters needed in Workflow Sequence plus scientist id. May be considered as a instance of Workflow Sequence.  
+
+*Simulations Queue* - queue of Simulations in Workflow sent by Scientist waiting for execution.
 
 *Module* - single unit-program within Workflow Sequence added by Administrator.
 
