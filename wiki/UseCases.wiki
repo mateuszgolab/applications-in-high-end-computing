@@ -39,4 +39,14 @@
   * UC_A6: Create new User.
 
   * UC_A7: Inactivate User.
+
+
+----
+==Workflow and Recovery Managers==
+
+  * UC_M1: Configure recovery mechanism.
+
+  * UC_M2: Create backup.
+  
+  * UC_M3: Recover.
  
