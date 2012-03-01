@@ -20,7 +20,7 @@
 ----
 ----
 
-== Other entities ==
+== Layers ==
 
 *System* - all resources and programs used in order to achieve project's aims. Organised, logically in three layers: access, controlling and calculating one. 
 
@@ -33,11 +33,11 @@
 ----
 ===Control layer===
 
-*Workflow* - all entities: programs and modules solving actual and controlling scientist task.  
+*Workflow* - all entities: programs and modules controlling and performing simulations scientist task.  
 
 *Workflow Server* - logical machine where Workflow runs.
 
-*Workflow Sequence* - ordered, connected list of programs performing actual work of system. Sequence of steps neccessary to finish task. Set up by Administrator.
+*Workflow Sequence* - ordered, connected list of programs performing actual work of system. Sequence of steps necessary to finish task. Set up by Administrator.
 
 *Simulation* - all start parameters needed in Workflow Sequence plus scientist id. May be considered as a instance of Workflow Sequence.  
 
