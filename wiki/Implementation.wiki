@@ -1,9 +1,9 @@
 #labels Phase-Implementation
 = Mocks =
 
-google mock framework
+==google mock framework==
 
-== class ==
+=== class ===
 {{{
 class Turtle {
   ...
@@ -20,7 +20,7 @@ class Turtle {
 }}}
 
 
-== mock class ==
+=== mock class ===
 {{{
 #include "gmock/gmock.h"  // Brings in Google Mock.
 class MockTurtle : public Turtle {
