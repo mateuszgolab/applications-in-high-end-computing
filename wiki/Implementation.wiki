@@ -16,5 +16,4 @@
  * jMock
  * EasyMock
 
-
 = Unit tests =
