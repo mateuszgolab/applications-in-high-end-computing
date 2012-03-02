@@ -1,5 +1,14 @@
 #labels Phase-Implementation
+= Recovery implementation =
+
+
 = Mocks =
+
+== Mocks needed ==
+
+ * Database Manager mock
+ * 
+
 
 ==google mock framework==
 
@@ -40,6 +49,6 @@ class MockTurtle : public Turtle {
 
 http://code.google.com/p/googlemock/wiki/ForDummies
 
-= Recovery implementation =
+
 
 = Unit tests =
