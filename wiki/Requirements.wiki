@@ -13,6 +13,7 @@ Create a workflow simulation model for a complex system, where the program shoul
      * FU3.1 Monitoring of errors: Users can see the exact location of failures.
      * FU3.2 Flexible recovery policy (depending on expected time of execution we decide to store data before/after module or after each iteration)
   * FU4 Many users have possibility to connect to system simultaneously. But there is only one running program at time (users requests' go to queue - serial workflow).
+  * FU5 User can stop simulation.
 
 
 = Non-functional Requirements =
