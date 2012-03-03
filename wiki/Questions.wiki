@@ -16,6 +16,8 @@
 
 The functional requirement would be the ability to submit jobs to arbitrary platforms. The non-functional requirement would be to have access to appropriate resources, regardless of the details of whether other people would be connected to it.
 
+ * 5. There is a suggestion for non-functional requirements that, they should be measurable. They should contains concrete values. "Modules can run on many different remote systems using different platforms but hey have to be already installed." Maybe we should ask about that what type of systems we should support.
+
 ----
 ===Minor===
 
