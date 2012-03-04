@@ -2,4 +2,11 @@
 || prepare use cases||almost finished||
 || prepare final requirements doc || almost finished||
 || prepare final design doc       || almost finished ||
+|| prepare test cases || not started||
+|| prepare integration tests scenarios || not started||
+|| prepare non functional requirements tests || not started ||
+|| prepare sequence and activity diagrams|| in progress||
+|| implement mocks|| in progress||
+|| describe scrum in general document|| not started ||
+|| prepare prototype implementation structure|| in progress||
  
