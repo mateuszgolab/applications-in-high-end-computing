@@ -1,4 +1,4 @@
-||*Task*||*Status*|| 
+|| *Task* || *Status* || 
 || prepare use cases||almost finished||
 || prepare final requirements doc || almost finished||
 || prepare final design doc       || almost finished ||
