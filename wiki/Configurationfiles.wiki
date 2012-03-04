@@ -41,7 +41,7 @@ Number of files: N
 
  <numberOfProcessors value=3>
 
- <executionCommand value="">
+ <executionCommand value="ssh miguelKeyPair.pem 135.123.456.789 ./module1 -50 mesh.txt">
 
 </code>
 
