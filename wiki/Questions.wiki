@@ -18,6 +18,8 @@ The functional requirement would be the ability to submit jobs to arbitrary plat
 
  * 5. There is a suggestion for non-functional requirements that, they should be measurable. They should contains concrete values. "Modules can run on many different remote systems using different platforms but hey have to be already installed." Maybe we should ask about that what type of systems we should support.
 
+ * 6. How many users will use Workflow ? Important from non-functional requirements tests point of view.
+
 ----
 ===Minor===
 
