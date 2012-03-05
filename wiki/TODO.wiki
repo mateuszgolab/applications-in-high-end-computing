@@ -9,4 +9,4 @@
 || implement mocks|| in progress||
 || describe scrum in general document|| almost finished ||
 || prepare prototype implementation structure|| in progress||
- 
+|| create unit tests || not started ||
