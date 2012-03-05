@@ -7,6 +7,6 @@
 || prepare non functional requirements tests || not started ||
 || prepare sequence and activity diagrams|| in progress||
 || implement mocks|| in progress||
-|| describe scrum in general document|| not started ||
+|| describe scrum in general document|| almost finished ||
 || prepare prototype implementation structure|| in progress||
  
