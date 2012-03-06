@@ -12,3 +12,4 @@
 || prepare prototype implementation structure|| in progress ||
 || create unit tests || not started ||
 || prepare implementation document || almost finished ||
+|| cost estimation || not started ||
