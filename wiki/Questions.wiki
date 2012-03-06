@@ -20,6 +20,8 @@ The functional requirement would be the ability to submit jobs to arbitrary plat
 
  * 6. How many users will use Workflow ? Important from non-functional requirements tests point of view.
 
+ * 7. Literature review - should be only included in Project Management document or rather separated into 4 others deliverables?  
+
 ----
 ===Minor===
 
