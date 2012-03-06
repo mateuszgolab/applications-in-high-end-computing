@@ -11,3 +11,4 @@
 || prepare general/managment document || in progress ||
 || prepare prototype implementation structure|| in progress ||
 || create unit tests || not started ||
+|| prepare implementation document || almost finished ||
