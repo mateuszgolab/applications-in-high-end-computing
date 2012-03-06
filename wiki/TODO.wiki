@@ -1,12 +1,13 @@
 || *Task* || *Status* || 
-|| prepare use cases||almost finished||
-|| prepare final requirements doc || almost finished||
+|| prepare use cases|| finished||
+|| prepare final requirements doc || finished||
 || prepare final design doc       || almost finished ||
-|| prepare test cases || not started||
-|| prepare integration tests scenarios || not started||
-|| prepare non functional requirements tests || not started ||
-|| prepare sequence and activity diagrams|| in progress||
-|| implement mocks|| in progress||
-|| describe scrum in general document|| almost finished ||
-|| prepare prototype implementation structure|| in progress||
+|| prepare test cases || almost finished ||
+|| prepare integration tests scenarios || started||
+|| prepare non functional requirements tests || finished ||
+|| prepare sequence and activity diagrams|| finished ||
+|| implement mocks|| in progress ||
+|| describe scrum in general document || finished ||
+|| prepare general/managment document || in progress ||
+|| prepare prototype implementation structure|| in progress ||
 || create unit tests || not started ||
