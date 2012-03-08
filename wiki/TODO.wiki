@@ -8,8 +8,8 @@
 || prepare sequence and activity diagrams|| finished ||
 || implement mocks|| in progress ||
 || describe scrum in general document || finished ||
-|| prepare general/managment document || almost finished ||
+|| prepare general/managment document || finished ||
 || prepare prototype implementation structure|| in progress ||
 || create unit tests || not started ||
 || prepare implementation document || almost finished ||
-|| cost estimation || almost finished ||
+|| cost estimation || finished ||
