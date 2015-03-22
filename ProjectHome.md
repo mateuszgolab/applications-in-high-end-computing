@@ -1,0 +1,1 @@
+System managing workflow for multiplatform programs. Designed to perform recovery mechanism .
